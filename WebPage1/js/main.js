@@ -1,6 +1,6 @@
-JQuery(document).ready(function(){
+jQuery(document).ready(function(){
     "use strict";
-    $('#slider-casula').carofacial({
+    $('#slider-casula').carouFredSel({
         responsive:true,
         width:'100%',
         circular:true,
