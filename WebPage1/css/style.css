@@ -177,6 +177,7 @@ header nav ul li a:hover
   background:#f7f7f7;
   margin:50px 0px 0px;
   text-align:center;
+  margin-bottom:230px;
   padding: 70px 20px 30px;
 }
 .intro-block:hover, .intro-block.active
@@ -184,7 +185,8 @@ header nav ul li a:hover
  background:#0AABE1;
 }
 .intro-block:hover
-{ transition: .6s ease;
+{  
+  transition: .6s ease;
 }
 .intro-block .intro-icon
 { position:absolute;
@@ -211,6 +213,7 @@ header nav ul li a:hover
  width:68px;
  height:68px;
  font-size:35px;
+
 }
 .intro-block h3
 { color:deepskyblue;
@@ -224,4 +227,60 @@ header nav ul li a:hover
 .intro-block:hover h3, .intro-block:hover p
 {
  color:#f6f6f6;
+ font-weight:730;
+}
+.feature-area
+{
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/slider3.jpg);
+ background-position:center;
+ background-attachment:fixed;
+ padding:100px 0;
+}
+.title h3
+{ color:white;
+  margin-top:50px;
+}
+.title .sub-heading p
+{ color:#f3f3f3;
+}
+.single-feature p,h3
+{ color:white;
+}
+.single-feature .feature-icon i
+{ color:white;
+  padding:15px;
+  font-size:30px;
+  background:#00a7dd;
+  border:2px solid #fff;
+  transition: .6s ease;
+  border-radius:50%;
+  width:64px;
+  height:64px; 
+  transition: 0.3s ease;
+}
+.single-feature
+{
+ width:325px; float:left; padding:30px 0; text-align:center; position:relative; border-right:1px solid #65c8e5;
+ border-bottom:1px solid #65c8e5;
+}
+.feature-block:hover .single-feature
+{
+ border-colo:white;
+ transition: 0.3s ease;
+}
+.single-feature:hover .feature-icon .fa
+{
+ border:2px solid #00a7dd;
+ background:white;
+ color:deepskyblue;
+}
+.single-feature:nth-of-type(even)
+{ border-right:none;
+}
+.single-feature:nth-last-child(2)
+{ border-bottom:none;
+}
+
+.single-feature:last-child
+{ border-bottom:none;
 }
