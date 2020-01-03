@@ -4,7 +4,7 @@
 
 }
 body{
-    height: 3000px;
+    height: 5000px;
 }
 header
 {   
@@ -283,4 +283,39 @@ header nav ul li a:hover
 
 .single-feature:last-child
 { border-bottom:none;
+}
+.more-feature .title h3
+{
+ color:darkgray;
+ font-size:30px;
+ margin-top:250px 0;
+}
+.more-feature .sub-heading p
+{ color:darkgray;
+ font-size:18px;
+}
+
+.list-feature .fa
+{ color:deepskyblue;
+  font-size:35px;
+}
+
+.feature-details h3
+{ color:deepskyblue;
+  font-weight:bold;
+  
+}
+.feature-details p
+{ color:darkgray;
+  font-size:20px;
+  
+}
+
+.list-feature ul
+{ list-style:none;
+}
+.list-feature li
+{ position:relative;
+  margin-bottom:30px;
+  padding-left:80px;
 }
