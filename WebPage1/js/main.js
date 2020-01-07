@@ -36,3 +36,11 @@ jQuery(document).ready(function(){
                 }
     });
 });
+function datetime(){
+let date=new Date;
+fdate=date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+document.getElementById("date").innerHTML=fdate;
+}
+
+datetime();
+setInterval(datetime,1000);

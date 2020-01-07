@@ -286,27 +286,33 @@ header nav ul li a:hover
 }
 .more-feature .title h3
 {
- color:darkgray;
+ color:white;
  font-size:30px;
  margin-top:250px 0;
 }
 .more-feature .sub-heading p
-{ color:darkgray;
+{ color:white;
  font-size:18px;
 }
 
 .list-feature .fa
-{ color:deepskyblue;
-  font-size:35px;
+{ color:white;
+  width:64px;
+  height:64px;
+  font-size:40px;
+  line-height:63px;
+  text-align:center;
+ 
+
 }
 
 .feature-details h3
-{ color:deepskyblue;
+{ color:white;
   font-weight:bold;
   
 }
 .feature-details p
-{ color:darkgray;
+{ color:white;
   font-size:20px;
   
 }
@@ -318,4 +324,24 @@ header nav ul li a:hover
 { position:relative;
   margin-bottom:30px;
   padding-left:80px;
+}
+.list-feature .feature-icon:hover  i
+{
+ border:2px solid #00a7dd;
+ background:white;
+ color:deepskyblue;
+ width:64px;
+ height:64px;
+   font-size:40px;
+   transition: .6s ease;
+  border-radius:50%;
+  
+}
+.more-feature
+{ 
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/slider2.jpg);
+background-position:center;
+ background-attachment:fixed;
+ padding:100px 0;
+ margin-top:200px;
 }
